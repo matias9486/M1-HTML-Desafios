@@ -1,0 +1,69 @@
+:root{
+    --font-asap: 'Asap', sans-serif;
+    --font-museoModerno: 'MuseoModerno', cursive;
+
+    --fs-88:117.33px;
+    --fs-39:52px;
+    --fs-25:33.33px;
+    --fs-36:48px;
+    --fs-149:198.66px;
+
+    --fw-regular:400;
+    --fw-bold:700;
+
+}
+
+body{
+    background-color: #edf7ff;
+}
+
+section{
+    margin:0 10%;
+    width: 65%;
+}
+.titulo-principal{
+    font-size: var(--fs-88);
+    font-family: var(--font-museoModerno);
+    font-weight: var(--fw-bold);
+    color: #0a2ff1;    
+    height: 150px;    
+    margin:5% 10% 0%;
+}
+
+.titulo-destino{
+    font-size: var(--fs-39);
+    font-family: var(--font-asap);
+    font-weight: var(--fw-regular);
+    color:#0a2ff1;  
+    margin-top: 0px;  
+    margin-bottom: 100px;
+}
+
+p{
+    font-size: 33.3px;
+    font-family: var(--font-asap);
+    font-weight: var(--fw-regular);
+    color:#04146c;
+}
+
+.titulo-lista{
+    font-size: var(--fs-36);
+    font-family: var(--font-asap);
+    font-weight: var(--fw-bold);
+    color:#0a2ff1;
+    margin-top: 100px;
+}
+
+ul>li{
+    font-size: var(--fs-25);
+    font-family: var(--font-asap);    
+    color:#04146c;
+    margin:10px 0px;
+}
+
+.titulo-footer{
+    font-size: var(--fs-149);
+    font-family: var(--font-museoModerno);
+    font-weight: var(--fw-bold);
+    color:#8a9af1;
+}
